@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<style>
+    body,html{
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #demo{
+        height: 100%;
+        background: #4274aa;
+    }
+</style>
+
+<div id="demo"></div>
+
+<script src="statics/jquery.js"></script>
+<script src="statics/yanBgCanvas.js"></script>
+<script>
+    $('#demo').yanBgCanvas({
+        theme:'text',
+        text:'欢迎来到插件模板之家',
+        font:'bold 100px 微软雅黑',
+        yOffset:50,
+        mass:5,
+        start:'leftBottom'
+    });
+</script>
+
+
+</body>
+</html>
